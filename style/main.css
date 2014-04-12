@@ -709,3 +709,50 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
+
+
+.tile-inner{
+  background-size: cover !important;
+}
+.labs-1{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/jacob.jpg') !important;
+}
+.labs-2{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/laura1.jpg') !important;
+}
+.labs-3{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/jenny.jpg') !important;
+}
+.labs-4{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/ethan.jpg') !important;
+}
+.labs-5{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/eric.jpg') !important;
+}
+.labs-6{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/robert.jpg') !important;
+}
+.labs-7{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/alex_girl.jpg') !important;
+}
+.labs-8{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/alex.jpg') !important;
+}
+.labs-9{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/cori.jpg') !important;
+}
+.labs-10{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/bennett.jpg') !important;
+}
+.labs-11{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/joe.jpg') !important;
+}
+.labs-12{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/kayla.jpg') !important;
+}
+.labs-13{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/mike.jpg') !important;
+}
+.labs-14{
+  background-image: url('http://jacob-tmp.s3.amazonaws.com/2048/lisa.jpg') !important;
+}

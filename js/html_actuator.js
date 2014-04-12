@@ -48,7 +48,7 @@ HTMLActuator.prototype.clearContainer = function (container) {
 
 HTMLActuator.prototype.addTile = function (tile) {
   var self = this;
-
+  var img = '';
   var wrapper   = document.createElement("div");
   var inner     = document.createElement("div");
   var position  = tile.previousPosition || { x: tile.x, y: tile.y };
@@ -62,7 +62,36 @@ HTMLActuator.prototype.addTile = function (tile) {
   this.applyClasses(wrapper, classes);
 
   inner.classList.add("tile-inner");
-  inner.textContent = tile.value;
+  
+  if (tile.value == 2){
+    inner.classList.add("labs-1");
+  } else if (tile.value == 4){
+    inner.classList.add("labs-2");
+  } else if (tile.value == 8){
+    inner.classList.add("labs-3");
+  } else if (tile.value == 16){
+    inner.classList.add("labs-4");
+  } else if (tile.value == 32){
+    inner.classList.add("labs-5");
+  } else if (tile.value == 64){
+    inner.classList.add("labs-6");
+  } else if (tile.value == 128){
+    inner.classList.add("labs-7");
+  } else if (tile.value == 256){
+    inner.classList.add("labs-8");
+  } else if (tile.value == 512){
+    inner.classList.add("labs-9");
+  } else if (tile.value == 1024){
+    inner.classList.add("labs-10");
+  } else if (tile.value == 2048){
+    inner.classList.add("labs-11");
+  } else if (tile.value == 4096){
+    inner.classList.add("labs-12");
+  } else if (tile.value == 8192){
+    inner.classList.add("labs-13");
+  }
+
+  inner.textContent = ' ';//tile.value;
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
